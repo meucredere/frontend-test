@@ -70,16 +70,13 @@ customer['parent']['__destroy']
 
 #### 2.1. Implementação
 
-A ideia é que um "slideshow" seja criado para apresentar novidades no sistema. Algumas regras são:
+A ideia é que um slider seja criado para apresentar novidades no sistema. Algumas regras são:
 
-- se aproximar ao máximo do layout apresentado nas imagens;
-- a leitura de todas as páginas é obrigatória;
-- os layouts com texto não devem apresentar scroll interno ou trim nos parágrafos;
-- todos os slides devem ter a mesma altura;
-- o slideshow deve ser alimentado por JSON e a ideia é que se possa escolher o layout, imagem e textos de cada slide; e
-- modificações no layout geral ou dos slides pra melhoria de experiência são bem-vindas. Novos layouts também.
-
-Pelo menos 4 layouts de apresentação são obrigatórios:
+- se aproximar ao máximo do design apresentado nas imagens abaixo;
+- a leitura de todas as páginas ser obrigatória;
+- os slides com texto não devem apresentar scroll interno ou trim nos parágrafos;
+- todos os slides devem ter a mesma altura; e
+- ele deve ser alimentado por um JSON: a ideia é que se possa escolher nesse arquivo o layout, imagem e textos de cada slide.
 
 ![primeiro-layout](images/news/layout-1.jpg)
 
@@ -89,19 +86,19 @@ Pelo menos 4 layouts de apresentação são obrigatórios:
 
 ![quarto-layout](images/news/layout-4.jpg)
 
-Os botões devem obedecer pelo menos aos seguintes estados:
+Os botões devem obedecer, pelo menos, aos seguintes estados:
 
 ![comportamento-dos-botoes](images/news/buttons.jpg)
 
-*BÔNUS: Consegue fazer o botão de "próximo" mostrar o próximo slide sem usar JavaScript? Algo mais? :)*
+*BÔNUS: Conseguir fazer o botão de "próximo" mudar o slide sem usar JavaScript :)*
 
 ## 3. Pronto. E agora?
 
 #### 3.1. Ganhe uns pontos extras
 
-- se preocupando com imagens sem contraste e placeholders;
+- se preocupando com imagens de background sem contraste;
 - se preocupando com diferentes tamanhos de tela; e
-- desenrolando um deploy automático pra mostrar um skillset seu mais interessante ainda pra gente.
+- configurando um deploy automático.
 
 ### 3.2. Testes
 
@@ -109,11 +106,11 @@ Teste. Seu. Código. :D
 
 #### 3.2. E pra rodar, cmofas?
 
-Não esqueça de documentar bem seu projeto.
+Não esqueça de documentar bem esse passo!
 
 #### 3.4. Envia tudo!
 
-`#partiu` subir o projeto no GitHub ~~e deployar, talvez? ;)~~ pra que a gente consiga avaliar ele e seu código. Se não quiser deixar público, pode enviar direto pra gente.
+`#partiu` subir o projeto no GitHub ~~e deployar, talvez? ;)~~ pra que a gente consiga avaliar seu código. Se não quiser deixar público, pode enviar direto pra gente.
 
 ## 4. That's it!
 
@@ -122,4 +119,3 @@ Usamos frameworks no dia-a-dia, mas valorizamos bastante o domínio de fundament
 Fique a vontade pra usar o que quiser de tecnologia no projeto.
 
 Qualquer dúvida, dispara um e-mail pra gente no [credev@meucredere.com.br](mailto:credev@meucredere.com.br).
-
